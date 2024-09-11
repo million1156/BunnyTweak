@@ -53,7 +53,7 @@ class LoadHook: ClassHook<RCTCxxBridge> {
       bundleUrl = loaderConfig.customLoadUrl.url
     } else {
       bundleUrl = URL(
-        string: "https://raw.githubusercontent.com/pyoncord/bunny-builds/main/bunny.js")!
+        string: "https://raw.githubusercontent.com/pyoncord/bunny-builds/dev/bunny.js")!
     }
 
     os_log("Fetching JS bundle", log: bunnyLog, type: .info)
